@@ -17,30 +17,9 @@
 		FUNCTION: CHANGE PAGES
 		-->
         <script>
-        function go_restaurant(){
-            window.location.href = "bookrestaurant.html";
-        }  
-        function go_profile(){
-            window.location.href = "profile.html";
+        function login(){
+            window.location.href = "main.html";
         }        
-        function go_gym(){
-            window.location.href = "bookgym.html";
-        }     
-        function earn_merits(){
-            window.location.href = "earnmerits.html";
-        }     
-        function go_spa(){
-            window.location.href = "bookspa.html";
-        }    
-        function go_team(){
-            window.location.href = "bookteam.html";
-        }    
-        function go_cinema(){
-            window.location.href = "bookcinema.html";
-        }    
-        function go_videogames(){
-            window.location.href = "bookvideogames.html";
-        }    
         </script>
         
 		<!--
@@ -82,7 +61,7 @@
             
 			
 			<div class="Profile">
-       			<input class="Profile" type="button" name="Profile" value="Profile" onclick="go_profile()"/>
+       			<input class="Profile" type="button" name="Profile" value="Profile" checked/>
    			</div>
 			
 		</div>
@@ -114,15 +93,10 @@
 		SMARTPHONE AND DESKTOP MAIN COLUMN
 		-->
 		<div class="col2">
-			<h1>Services</h1>
-            <input type="button" value="Profile" onclick="go_profile()"/>
-            <input type="button" value="Earn Merits" onclick="earn_merits()"/>
-            <input type="button" value="Restaurant" onclick="go_restaurant()"/>
-            <input type="button" value="Gym" onclick="go_gym()"/>
-            <input type="button" value="Spa" onclick="go_spa()"/>
-            <input type="button" value="Team Up" onclick="go_team()"/>
-            <input type="button" value="Cinema" onclick="go_cinema()"/>
-            <input type="button" value="Video Games" onclick="go_videogames()"/>
+			<h1>Login to enjoy GREEN services</h1>
+            <input type="text"> Username <br>
+            <input type="password"> Password <br>
+            <input type="button" value="Login!" onclick="login()">
         </div>
 			
 	</body>

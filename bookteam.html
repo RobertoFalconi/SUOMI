@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		
+        
 		<!--
 		TITLES, FONTS, JQUERY IMPORT
 		-->
 		<title>GREEN</title>
-		
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&effect=3d" rel="stylesheet">
 		<link rel=stylesheet href="styles.css" type="text/css">
 		<meta charset="utf-8"/>
@@ -17,30 +16,9 @@
 		FUNCTION: CHANGE PAGES
 		-->
         <script>
-        function go_restaurant(){
-            window.location.href = "bookrestaurant.html";
-        }  
-        function go_profile(){
-            window.location.href = "profile.html";
+        function go_back(){
+            window.location.href = "main.html";
         }        
-        function go_gym(){
-            window.location.href = "bookgym.html";
-        }     
-        function earn_merits(){
-            window.location.href = "earnmerits.html";
-        }     
-        function go_spa(){
-            window.location.href = "bookspa.html";
-        }    
-        function go_team(){
-            window.location.href = "bookteam.html";
-        }    
-        function go_cinema(){
-            window.location.href = "bookcinema.html";
-        }    
-        function go_videogames(){
-            window.location.href = "bookvideogames.html";
-        }    
         </script>
         
 		<!--
@@ -69,10 +47,15 @@
 			});
 		</script>
         
+        <!--
+		FUNCTION: ACCORDION
+		-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
 	</head>
-	
+    
 	<body>
-		
+        
 		<!--
 		SMARTPHONE SIDENAV
 		-->
@@ -82,9 +65,8 @@
             
 			
 			<div class="Profile">
-       			<input class="Profile" type="button" name="Profile" value="Profile" onclick="go_profile()"/>
+       			<input type="button" value="Profile" onclick="go_profile()"/>
    			</div>
-			
 		</div>
 		
 		<script>
@@ -104,7 +86,6 @@
             <div class="trigram" id="myTrigram">
 				<input type="button" value="&#9776" onclick="openNav()" style="background-color: transparent; border-color: transparent; cursor: default; font-size: 30px; color:white;"/>
 			</div>
-			
 			<div class="font-effect-3d"> 
 				<h1 id="logo">GREEN</h1>
 			</div>
@@ -114,15 +95,49 @@
 		SMARTPHONE AND DESKTOP MAIN COLUMN
 		-->
 		<div class="col2">
-			<h1>Services</h1>
-            <input type="button" value="Profile" onclick="go_profile()"/>
-            <input type="button" value="Earn Merits" onclick="earn_merits()"/>
-            <input type="button" value="Restaurant" onclick="go_restaurant()"/>
-            <input type="button" value="Gym" onclick="go_gym()"/>
-            <input type="button" value="Spa" onclick="go_spa()"/>
-            <input type="button" value="Team Up" onclick="go_team()"/>
-            <input type="button" value="Cinema" onclick="go_cinema()"/>
-            <input type="button" value="Video Games" onclick="go_videogames()"/>
+            <input type="button" value="Back" onclick="go_back()"/>
+            <h1>Book for a Badminton team!</h1>
+            <button class="accordion">Guarcino's Bolts</button>
+            <div class="panel">
+                <p>Roberto</p>
+                <p>Simone</p>
+                <p>Giacomo</p>
+                <p><input type="button" value="Enqueue" onclick="enqueue()"/></p>
+            </div>
+            <button class="accordion">Annoying Snakes</button>
+            <div class="panel">
+                <p>Gianmarco</p>
+                <p>Emanuel</p>
+            </div>
+            <h1>Book for a Volleyball team!</h1>
+            <button class="accordion">Mentana Power</button>
+            <div class="panel">
+                <p>Chiara</p>
+                <p>Edoardo</p>
+                <p>Stefan</p>
+                <p><input type="button" value="Enqueue" onclick="enqueue()"/></p>
+            </div>
+            <button class="accordion">Green Castle and Surroundings</button>
+            <div class="panel">
+                <p>Federico</p>
+                <p>Tommaso</p>
+            </div>
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+              });
+            }
+            </script>
         </div>
 			
 	</body>

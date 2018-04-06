@@ -1,5 +1,5 @@
 /* -----------------------
-STILE DI BASE DEL TESTO E DEI TITOLI
+TEXT AND TITLE STYLE
 ------------------------*/
 body {
 	margin: 0;
@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* -----------------------
-STILE DI BASE DELLE IMMAGINI
+IMAGES STYLE
 ------------------------*/
 .img-responsive {
 	max-width: 100%; 
@@ -34,8 +34,35 @@ STILE DI BASE DELLE IMMAGINI
 }
 
 /* -----------------------
-HEADER E HEADER.SMALLER
-(DESKTOP)
+ACCORDION STYLE
+------------------------*/
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* -----------------------
+DESKTOP: HEADER & HEADER.SMALLER
 ------------------------*/
 
 .header {
@@ -139,8 +166,7 @@ HEADER E HEADER.SMALLER
 }
 
 /* -----------------------
-HEADER E HEADER.SMALLER
-(SMARTPHONE)
+SMARTPHONE: HEADER & HEADER.SMALLER
 ------------------------*/
 
 @media all and (max-width: 600px) {
@@ -262,7 +288,7 @@ HEADER E HEADER.SMALLER
 }
 
 /* -----------------------
-SIDENAV (SMARTPHONE)
+SMARTPHONE: SIDENAV
 ------------------------*/
 
 .sidenav {
@@ -314,7 +340,6 @@ SIDENAV (SMARTPHONE)
 
 /* -----------------------
 CHECKOUT
-(SMARTPHONE E DESKTOP)
 ------------------------*/
 
 .modalDialog {
