@@ -17,10 +17,7 @@
 		-->
         <script>
         function go_back(){
-            window.location.href = "main.html";
-        }        
-        function go_profile(){
-            window.location.href = "profile.html";
+            window.location.href = "login.html";
         }       
         </script>
         
@@ -64,11 +61,11 @@
 		-->
 		<div id="mySidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<h1>Settings</h1>
+			<h1>Links</h1>
             
 			
-			<div class="Profile">
-       			<input type="button" value="Profile" onclick="go_profile()"/>
+			<div class="Login">
+       			<input type="button" value="Login" onclick="go_back()" class="button"/>
    			</div>
 		</div>
 		
@@ -98,7 +95,7 @@
 		SMARTPHONE AND DESKTOP MAIN COLUMN
 		-->
 		<div class="col2">
-            <input type="button" value="Back" onclick="go_back()"/>
+            <input type="button" value="Back" onclick="go_back()" class="button"/>
             <h1>Book for an equipment!</h1>
             <button class="accordion">CYCLETTE 1</button>
             <div class="panel">

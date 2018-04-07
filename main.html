@@ -17,6 +17,9 @@
 		FUNCTION: CHANGE PAGES
 		-->
         <script>
+        function go_back(){
+            window.location.href = "login.html";
+        }  
         function go_restaurant(){
             window.location.href = "bookrestaurant.html";
         }  
@@ -25,9 +28,6 @@
         }        
         function go_gym(){
             window.location.href = "bookgym.html";
-        }     
-        function earn_merits(){
-            window.location.href = "earnmerits.html";
         }     
         function go_spa(){
             window.location.href = "bookspa.html";
@@ -78,11 +78,11 @@
 		-->
 		<div id="mySidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<h1>Settings</h1>
+			<h1>Links</h1>
             
 			
 			<div class="Profile">
-       			<input class="Profile" type="button" name="Profile" value="Profile" onclick="go_profile()"/>
+       			<input type="button" name="Profile" value="Profile" onclick="go_profile()" class="button"/>
    			</div>
 			
 		</div>
@@ -114,15 +114,15 @@
 		SMARTPHONE AND DESKTOP MAIN COLUMN
 		-->
 		<div class="col2">
+            <input type="button" value="Log out" onclick="go_back()" class="button"/>
 			<h1>Services</h1>
-            <input type="button" value="Profile" onclick="go_profile()"/>
-            <input type="button" value="Earn Merits" onclick="earn_merits()"/>
-            <input type="button" value="Restaurant" onclick="go_restaurant()"/>
-            <input type="button" value="Gym" onclick="go_gym()"/>
-            <input type="button" value="Spa" onclick="go_spa()"/>
-            <input type="button" value="Team Up" onclick="go_team()"/>
-            <input type="button" value="Cinema" onclick="go_cinema()"/>
-            <input type="button" value="Video Games" onclick="go_videogames()"/>
+            <input type="button" value="Profile" onclick="go_profile()" class="button"/>
+            <input type="button" value="Restaurant" onclick="go_restaurant()" class="button"/>
+            <input type="button" value="Gym" onclick="go_gym()" class="button"/>
+            <input type="button" value="Spa" onclick="go_spa()" class="button"/>
+            <input type="button" value="Team Up" onclick="go_team()" class="button"/>
+            <input type="button" value="Cinema" onclick="go_cinema()" class="button"/>
+            <input type="button" value="Video Games" onclick="go_videogames()" class="button"/>
         </div>
 			
 	</body>

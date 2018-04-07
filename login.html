@@ -20,6 +20,9 @@
         function login(){
             window.location.href = "main.html";
         }        
+        function earn_merits(){
+            window.location.href = "earnmerits.html";
+        }     
         </script>
         
 		<!--
@@ -55,16 +58,6 @@
 		<!--
 		SMARTPHONE SIDENAV
 		-->
-		<div id="mySidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<h1>Settings</h1>
-            
-			
-			<div class="Profile">
-       			<input class="Profile" type="button" name="Profile" value="Profile" checked/>
-   			</div>
-			
-		</div>
 		
 		<script>
 			function openNav() {
@@ -80,12 +73,9 @@
 		SMARTPHONE HEADER
 		-->
 		<div class="header">
-            <div class="trigram" id="myTrigram">
-				<input type="button" value="&#9776" onclick="openNav()" style="background-color: transparent; border-color: transparent; cursor: default; font-size: 30px; color:white;"/>
-			</div>
 			
 			<div class="font-effect-3d"> 
-				<h1 class="logo">GREEN</h1>
+				<h1 id="logo">GREEN</h1>
 			</div>
 		</div>
 		
@@ -93,10 +83,13 @@
 		SMARTPHONE AND DESKTOP MAIN COLUMN
 		-->
 		<div class="col2">
-			<h1>Login to enjoy GREEN services</h1>
+            <h1>Login</h1>
+			<h3>Spend Merits to get an Access Token and enjoy GREEN services</h3>
             <input type="text"> Username <br>
-            <input type="password"> Password <br>
-            <input type="button" value="Login!" onclick="login()">
+            <input type="password"> Access Token <br>
+            <input type="button" class="button" value="Login!" onclick="login()"><br><br><br>
+            <h3>Don't you have enough Merits? Earn them!</h3>
+            <input type="button" class="button" value="Earn Merits" onclick="earn_merits()"/>
         </div>
 			
 	</body>

@@ -8,16 +8,33 @@ body {
 	font: 1em/1.2 "Raleway", Helvetica, Arial, Geneva, sans-serif;
 }
 
-@font-face { font-family: PetalGlyph; src: url('PetalGlyphV1.5.ttf'); } 
-h1.logo {
-        font-family: PetalGlyph
-}
+@font-face { 
+    font-family: PetalGlyph; 
+    src: url('PetalGlyphV1.5.ttf'); 
+} 
 
 h1,h2,h3,h4,h5,h6 {
 	margin: 0 0 .5em;
 	font-weight: 500;
 	line-height: 1.1;
 	font-family: "Montserrat", sans-serif;
+}
+
+/* -----------------------
+BUTTON STYLE
+------------------------*/
+.button {
+    background-color: #4CAF50; /* Green */
+    border-style: double;
+    border-color: darkgreen;
+    border-radius: 10px;
+    border-width: medium;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 /* -----------------------
@@ -42,12 +59,15 @@ IMAGES STYLE
 ACCORDION STYLE
 ------------------------*/
 .accordion {
-    background-color: #eee;
+    background-color: #4CAF50;
     color: #444;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    border-style: double;
+    border-color: darkgreen;
+    border-radius: 10px;
+    border-width: medium;
     text-align: left;
     outline: none;
     font-size: 15px;
@@ -55,10 +75,14 @@ ACCORDION STYLE
 }
 
 .active, .accordion:hover {
-    background-color: #ccc; 
+    background-color: #4CAF50; 
 }
 
 .panel {
+    border-style: double;
+    border-color: darkgreen;
+    border-radius: 10px;
+    border-width: medium;
     padding: 0 18px;
     background-color: white;
     max-height: 0;
@@ -90,7 +114,7 @@ DESKTOP: HEADER & HEADER.SMALLER
 .header h1#logo {
     margin-top: 30px;
 	margin-left: 40px;
-    font-family: "Montserrat", sans-serif;
+    font-family: PetalGlyph;
     font-size: 50px;
     color: white;
     -webkit-transition: all 0.3s;
