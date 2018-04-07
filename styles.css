@@ -13,17 +13,27 @@ body {
     src: url('PetalGlyphV1.5.ttf'); 
 } 
 
+@font-face { 
+    font-family: ProximaNova; 
+    src: url('ProximaNova.otf'); 
+} 
+
 h1,h2,h3,h4,h5,h6 {
 	margin: 0 0 .5em;
 	font-weight: 500;
 	line-height: 1.1;
-	font-family: "Montserrat", sans-serif;
+	font-family: ProximaNova;
+}
+
+label {
+    font-family: ProximaNova;
 }
 
 /* -----------------------
 BUTTON STYLE
 ------------------------*/
 .button {
+    font-family: ProximaNova;
     background-color: #4CAF50; /* Green */
     border-style: double;
     border-color: darkgreen;
@@ -59,6 +69,7 @@ IMAGES STYLE
 ACCORDION STYLE
 ------------------------*/
 .accordion {
+    font-family: ProximaNova;
     background-color: #4CAF50;
     color: #444;
     cursor: pointer;
@@ -79,6 +90,7 @@ ACCORDION STYLE
 }
 
 .panel {
+    font-family: ProximaNova;
     border-style: double;
     border-color: darkgreen;
     border-radius: 10px;
@@ -127,6 +139,7 @@ DESKTOP: HEADER & HEADER.SMALLER
 .header.smaller {
     height: 70px;
 }
+
 .header.smaller h1#logo {
     font-size: 30px;
     margin-top: 15px;
@@ -205,7 +218,7 @@ SMARTPHONE: HEADER & HEADER.SMALLER
         margin-top: 33px;
         margin-left: 20px;
 		margin-right: 10px;
-        font-family: "Montserrat", sans-serif;
+        font-family: ProximaNova;
         font-size: 30px;
         display: flex;
 		-webkit-transition: all 0.3s;
@@ -283,7 +296,7 @@ SMARTPHONE: HEADER & HEADER.SMALLER
 
     .modalCart {
         position: fixed;
-        font-family: "Montserrat", sans-serif;
+        font-family: ProximaNova;
         top: 0;
         right: 0;
         bottom: 0;
@@ -373,7 +386,7 @@ CHECKOUT
 
 .modalDialog {
 	position: fixed;
-	font-family: "Montserrat", sans-serif;
+	font-family: ProximaNova;
 	z-index: 99999;
 	top: 0;
 	right: 0;
