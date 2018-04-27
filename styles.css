@@ -34,9 +34,9 @@ BUTTON STYLE
 ------------------------*/
 .button {
     font-family: ProximaNova;
-    background-color: #4CAF50; /* Green */
+    background-color: #87CEEB; /* SkyBlue */
     border-style: double;
-    border-color: darkgreen;
+    border-color: darkblue;
     border-radius: 10px;
     border-width: medium;
     color: white;
@@ -70,13 +70,13 @@ ACCORDION STYLE
 ------------------------*/
 .accordion {
     font-family: ProximaNova;
-    background-color: #4CAF50;
-    color: #444;
+    background-color: #87CEEB;
+    color: #100;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border-style: double;
-    border-color: darkgreen;
+    border-color: darkblue;
     border-radius: 10px;
     border-width: medium;
     text-align: left;
@@ -86,13 +86,13 @@ ACCORDION STYLE
 }
 
 .active, .accordion:hover {
-    background-color: #4CAF50; 
+    background-color: #87CEEB; 
 }
 
 .panel {
     font-family: ProximaNova;
     border-style: double;
-    border-color: darkgreen;
+    border-color: darkblue;
     border-radius: 10px;
     border-width: medium;
     padding: 0 18px;
@@ -112,7 +112,7 @@ DESKTOP: HEADER & HEADER.SMALLER
     position: fixed; /* ancora l'header */
     top: 0; /* ancora l'header ai bordi del browser */
     left: 0; /* ancora l'header */
-    background-color: #4CAF50;
+    background-color: #87CEEB;
     -webkit-transition: height 0.3s;
     -moz-transition: height 0.3s;
     -ms-transition: height 0.3s;
@@ -341,7 +341,7 @@ SMARTPHONE: SIDENAV
     top: 0;
     left: 0;
 	font-size: 30px;
-    background-color: #4CAF50;
+    background-color: #87CEEB;
     overflow: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -411,7 +411,7 @@ CHECKOUT
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
-	background: #4CAF50;
+	background: #87CEEB;
 	background: -moz-linear-gradient(#4CAF50, #999);
 	background: -webkit-linear-gradient(#4CAF50, #999);
 	background: -o-linear-gradient(#4CAF50, #999);

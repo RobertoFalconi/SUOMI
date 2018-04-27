@@ -5,7 +5,7 @@
 		<!--
 		TITLES, FONTS, JQUERY IMPORT
 		-->
-		<title>GREEN</title>
+		<title>BLUE</title>
 		
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&effect=3d" rel="stylesheet">
 		<link rel=stylesheet href="styles.css" type="text/css">
@@ -20,7 +20,7 @@
         function login(){
             var access_token = document.getElementById("access_token");
             var username = document.getElementById("username");
-            if ((access_token.value == "green@001" || access_token.value == "green@002") && (username.value != "")) {
+            if ((access_token.value == "blue@001" || access_token.value == "blue@002") && (username.value != "")) {
                 window.location.href = "main.html";
             }
             else {
@@ -82,7 +82,7 @@
 		<div class="header">
 			
 			<div class="font-effect-3d"> 
-				<h1 id="logo">GREEN</h1>
+				<h1 id="logo">BLUE</h1>
 			</div>
 		</div>
 		
@@ -91,14 +91,13 @@
 		-->
 		<div class="col2">
             <br><h1>Login</h1>
-			<br><br><h3>Spend Merits to get an Access Token and enjoy services</h3>
+            <br>
             <label>Username</label><br>
             <input type="text" id = "username"><br>
             <label>Access Token</label><br>
             <input type="text" id = "access_token"><br><br>
+            <br>
             <input type="button" class="button" value="Login!" onclick="login()"><br><br><br>
-            <h3>Don't you have enough Merits? Earn them!</h3>
-            <input type="button" class="button" value="Earn Merits" onclick="earn_merits()"/>
         </div>
         
         </body>

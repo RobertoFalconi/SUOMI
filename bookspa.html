@@ -5,7 +5,7 @@
 		<!--
 		TITLES, FONTS, JQUERY IMPORT
 		-->
-		<title>GREEN</title>
+		<title>BLUE</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&effect=3d" rel="stylesheet">
 		<link rel=stylesheet href="styles.css" type="text/css">
 		<meta charset="utf-8"/>
@@ -20,7 +20,10 @@
         <script>
         function go_back(){
             window.location.href = "main.html";
-        }        
+        }
+        function go_restaurant(){
+            window.location.href = "bookrestaurant.html";
+        }
         </script>
         
 		<!--
@@ -65,10 +68,6 @@
 			<br><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<br><br><h1>Links</h1>
             
-			
-			<div class="Profile">
-       			<input type="button" value="Profile" onclick="go_profile()" class="button"/>
-   			</div>
             <br>
             <div>
                 <input type="button" value="Log out" onclick="go_back()" class="button"/>
@@ -93,7 +92,7 @@
 				<input type="button" value="&#9776" onclick="openNav()" style="background-color: transparent; border-color: transparent; cursor: default; font-size: 30px; color:white;"/>
 			</div>
 			<div class="font-effect-3d"> 
-				<h1 id="logo">GREEN</h1>
+				<h1 id="logo">BLUE</h1>
 			</div>
 		</div>
 		
@@ -127,6 +126,10 @@
                 <p>Simone</p>
                 <p>Gianmarco</p>
             </div>
+            <br/>
+            <input type="button" value="Click here to book a table" onclick="go_restaurant()" class="button"/>
+            
+            
             <script>
             var acc = document.getElementsByClassName("accordion");
             var i;
