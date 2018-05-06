@@ -1,5 +1,4 @@
 # BLUE
-BLUE: Best Life - Ultimate Experience.
+SUOMI: smart guide for your spa experience.
 
-BLUE is a spa provided with a relax area.
-The idea is to build a web application that manages such center with a nexus of people, where you can go whenever you want to and use its services.
+SUOMI is an AI that guide users of a wellness center in the best possible journey using IoT.
