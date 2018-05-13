@@ -17,19 +17,22 @@
 		FUNCTION: CHANGE PAGES
 		-->
         <script>
-        function login(){
-            var access_token = document.getElementById("access_token");
-            var username = document.getElementById("username");
-            if ((access_token.value == "00001" || access_token.value == "00002") && (username.value != "")) {
-                window.location.href = "userdata.html";
+        function send(){
+            var age = document.getElementById("age");
+            var height = document.getElementById("height");
+            var weight = document.getElementById("weight");
+            var bmi = weight.value / (height.value * height.value);
+            
+            if (age.value >= 60 && bmi >= 25) {        // OF
+                window.location.href = "main-of.html";
+            } else if (age.value >= 60 && bmi < 25) {  // OS
+                window.location.href = "main-os.html";
+            } else if (age.value < 60  && bmi >= 25) { // YF
+                window.location.href = "main-yf.html";
+            } else if (age.value < 60 && bmi < 25) {   // YS
+                window.location.href = "main-ys.html";
             }
-            else {
-                alert("Invalid credentials.");
-            }
-        }        
-        function data(){
-            window.location.href = "userdata.html";
-        }     
+        }          
         </script>
         
 		<!--
@@ -90,14 +93,18 @@
 		SMARTPHONE AND DESKTOP MAIN COLUMN
 		-->
 		<div class="col2">
-            <br><h1>Login</h1>
+            <br><h1>Insert your data:</h1>
             <br>
-            <label>Username</label><br>
-            <input type="text" id = "username"><br>
-            <label>One Time Password (OTP)</label><br>
-            <input type="text" id = "access_token"><br><br>
+            <label>Gender</label><br>
+            <input type="text" id="gender"><br><br>
+            <label>Age</label><br>
+            <input type="text" id="age"><br><br>
+            <label>Height</label><br>
+            <input type="text" id="height"><br><br>
+            <label>Weight</label><br>
+            <input type="text" id="weight"><br><br>
             <br>
-            <input type="button" class="button" value="Login!" onclick="login()"><br><br><br>
+            <input type="button" class="button" value="Send" onclick="send()"><br><br><br>
         </div>
         
         </body>

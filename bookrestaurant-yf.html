@@ -5,7 +5,7 @@
 		<!--
 		TITLES, FONTS, JQUERY IMPORT
 		-->
-		<title>BLUE</title>
+		<title>SUOMI</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&effect=3d" rel="stylesheet">
 		<link rel=stylesheet href="styles.css" type="text/css">
 		<meta charset="utf-8"/>
@@ -19,10 +19,10 @@
 		-->
         <script>
         function go_restaurant(){
-            window.location.href = "restaurant.html";
+            window.location.href = "restaurant-yf.html";
         }        
         function go_back(){
-            window.location.href = "main.html";
+            window.location.href = "main-yf.html";
         }        
         </script>
         
@@ -92,19 +92,22 @@
 				<input type="button" value="&#9776" onclick="openNav()" style="background-color: transparent; border-color: transparent; cursor: default; font-size: 30px; color:white;"/>
 			</div>
 			<div class="font-effect-3d"> 
-				<h1 id="logo">BLUE</h1>
+				<h1 id="logo">SUOMI</h1>
 			</div>
 		</div>
 		
 		<!--
 		SMARTPHONE AND DESKTOP MAIN COLUMN <input type="button" value="Make an order" onclick="go_restaurant()" class="button" id = "order_button"/>
 		-->
+        <div class="col1">
+            <br><input type="button" value="Log out" onclick="logout()" class="button"/>
+        </div>
 		<div class="col2">
             <br><input type="button" value="Back" onclick="go_back()" class="button"/>
             <br><br><h1>Book for a table!</h1><br>
             <button class="accordion">TABLE FOR 1</button>
             <div class="panel">
-                <p id="you"><input type="button" value="Enqueue" onclick="enqueue()" class="button"/></p>
+                <p id="you"><input type="button" value="Enqueue" onclick="enqueue_relax()" class="button"/></p>
                 <p></p>
             </div>
             <button class="accordion">TABLE FOR 2 (FULL)</button>

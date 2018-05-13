@@ -9,9 +9,14 @@ body {
 }
 
 @font-face { 
-    font-family: PetalGlyph; 
-    src: url('PetalGlyphV1.5.ttf'); 
+    font-family: Skranji; 
+    src: url('Skranji-Bold.ttf'); 
 } 
+
+@font-face { 
+    font-family: SkranjiR; 
+    src: url('Skranji-Regular.ttf'); 
+}
 
 @font-face { 
     font-family: ProximaNova; 
@@ -126,7 +131,7 @@ DESKTOP: HEADER & HEADER.SMALLER
 .header h1#logo {
     margin-top: 30px;
 	margin-left: 40px;
-    font-family: PetalGlyph;
+    font-family: Skranji;
     font-size: 50px;
     color: white;
     -webkit-transition: all 0.3s;
@@ -323,9 +328,9 @@ SMARTPHONE: HEADER & HEADER.SMALLER
         border-radius: 10px;
 		color: black;
         background: #4CAF50;
-		background: -moz-linear-gradient(#4CAF50, #999);
-		background: -webkit-linear-gradient(#4CAF50, #999);
-		background: -o-linear-gradient(#4CAF50, #999);
+		background: -moz-linear-gradient(#61a0e9, #90c1fb);
+	    background: -webkit-linear-gradient(#61a0e9, #90c1fb);
+	    background: -o-linear-gradient(#61a0e9, #90c1fb);
     }
 }
 
@@ -412,7 +417,7 @@ CHECKOUT
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
 	background: #87CEEB;
-	background: -moz-linear-gradient(#4CAF50, #999);
-	background: -webkit-linear-gradient(#4CAF50, #999);
-	background: -o-linear-gradient(#4CAF50, #999);
+	background: -moz-linear-gradient(#61a0e9, #90c1fb);
+	background: -webkit-linear-gradient(#61a0e9, #90c1fb);
+	background: -o-linear-gradient(#61a0e9, #90c1fb);
 }

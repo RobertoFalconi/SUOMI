@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-        
+		
 		<!--
 		TITLES, FONTS, JQUERY IMPORT
 		-->
-		<title>GREEN</title>
+		<title>SUOMI</title>
+		
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&effect=3d" rel="stylesheet">
 		<link rel=stylesheet href="styles.css" type="text/css">
 		<meta charset="utf-8"/>
 		<script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">
-		</script>
-        <script language="javascript" type="text/javascript" src="enqueue.js">
 		</script>
 		
         <!--
@@ -19,8 +18,14 @@
 		-->
         <script>
         function go_back(){
-            window.location.href = "main.html";
-        }        
+            window.location.href = "login.html";
+        }  
+        function go_restaurant(){
+            window.location.href = "bookrestaurant-ys.html";
+        }      
+        function go_spa(){
+            window.location.href = "bookspa-ys.html";
+        } 
         </script>
         
 		<!--
@@ -49,26 +54,16 @@
 			});
 		</script>
         
-        <!--
-		FUNCTION: ACCORDION
-		-->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
 	</head>
-    
+	
 	<body>
-        
+		
 		<!--
 		SMARTPHONE SIDENAV
 		-->
 		<div id="mySidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<h1>Links</h1>
-            
-			
-			<div class="Profile">
-       			<input type="button" value="Profile" onclick="go_profile()" class="button"/>
-   			</div>
             <br>
             <div>
                 <input type="button" value="Log out" onclick="go_back()" class="button"/>
@@ -92,58 +87,30 @@
             <div class="trigram" id="myTrigram">
 				<input type="button" value="&#9776" onclick="openNav()" style="background-color: transparent; border-color: transparent; cursor: default; font-size: 30px; color:white;"/>
 			</div>
+			
 			<div class="font-effect-3d"> 
-				<h1 id="logo">GREEN</h1>
+				<h1 id="logo">SUOMI</h1>
 			</div>
 		</div>
 		
 		<!--
 		SMARTPHONE AND DESKTOP MAIN COLUMN
 		-->
-		<div class="col2">
-            <br><input type="button" value="Back" onclick="go_back()" class="button"/>
-            <br><br><h1>Book for a Badminton team!</h1>
-            <button class="accordion">Guarcino's Bolts</button>
-            <div class="panel">
-                <p>Roberto</p>
-                <p>Simone</p>
-                <p>Giacomo</p>
-                <p id="you"><input type="button" value="Enqueue" onclick="enqueue()"/></p>
-            </div>
-            <button class="accordion">Annoying Snakes</button>
-            <div class="panel">
-                <p>Gianmarco</p>
-                <p>Emanuel</p>
-            </div>
-            <h1>Book for a Volleyball team!</h1>
-            <button class="accordion">Mentana Power</button>
-            <div class="panel">
-                <p>Chiara</p>
-                <p>Edoardo</p>
-                <p>Stefan</p>
-                <p id="you"><input type="button" value="Enqueue" onclick="enqueue()"/></p>
-            </div>
-            <button class="accordion">Green Castle and Surroundings</button>
-            <div class="panel">
-                <p>Federico</p>
-                <p>Tommaso</p>
-            </div>
-            <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-
-            for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight){
-                  panel.style.maxHeight = null;
-                } else {
-                  panel.style.maxHeight = panel.scrollHeight + "px";
-                } 
-              });
-            }
-            </script>
+		<div class="col1">
+            <br><input type="button" value="Log out" onclick="logout()" class="button"/>
+        </div>
+        <div class="col2">
+			<br>
+            <h1 style="font-family: SkranjiR;">Services</h1>
+            <h3><b>Welcome!</b><br>Your BMI is <i>lower</i> than 25.<br>Because of your age and your weight, we suggest you some specific healthy practices.</h3>
+            <input type="image" src="img/area-relax.jpg" height="200px" width="400px" value="Restaurant" onclick="go_restaurant()" border="1" class="image"/>&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            <h3>Relax Area</h3>
+            <br>
+            <input type="image" src="img/Spa.jpg" height="200px" width="400px" value="Spa" border="1" onclick="go_spa()" class="image"/>&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            <h3>SPA</h3>
+            
         </div>
 			
 	</body>

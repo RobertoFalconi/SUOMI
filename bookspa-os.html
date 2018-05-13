@@ -5,7 +5,7 @@
 		<!--
 		TITLES, FONTS, JQUERY IMPORT
 		-->
-		<title>GREEN</title>
+		<title>SUOMI</title>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&effect=3d" rel="stylesheet">
 		<link rel=stylesheet href="styles.css" type="text/css">
 		<meta charset="utf-8"/>
@@ -19,8 +19,8 @@
 		-->
         <script>
         function go_back(){
-            window.location.href = "main.html";
-        }        
+            window.location.href = "main-os.html";
+        }
         </script>
         
 		<!--
@@ -62,13 +62,9 @@
 		SMARTPHONE SIDENAV
 		-->
 		<div id="mySidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<br><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<br><br><h1>Links</h1>
             
-			
-			<div class="Profile">
-       			<input type="button" value="Profile" onclick="go_profile()" class="button"/>
-   			</div>
             <br>
             <div>
                 <input type="button" value="Log out" onclick="go_back()" class="button"/>
@@ -93,28 +89,47 @@
 				<input type="button" value="&#9776" onclick="openNav()" style="background-color: transparent; border-color: transparent; cursor: default; font-size: 30px; color:white;"/>
 			</div>
 			<div class="font-effect-3d"> 
-				<h1 id="logo">GREEN</h1>
+				<h1 id="logo">SUOMI</h1>
 			</div>
 		</div>
 		
 		<!--
 		SMARTPHONE AND DESKTOP MAIN COLUMN
 		-->
+        <div class="col1">
+            <br><input type="button" value="Log out" onclick="logout()" class="button"/>
+        </div>
 		<div class="col2">
             <br><input type="button" value="Back" onclick="go_back()" class="button"/>
-            <br><br><h1>Book for an equipment!</h1>
-            <button class="accordion">BENCHPRESS</button>
+            <br><br><h1>Book for relax!</h1>
+            <h2>We suggest you this exciting journey!</h2>
+            <button class="accordion">TURKISH BATH</button>
             <div class="panel">
-                <p>Stefan</p>
-                <p>Tommaso</p>
-                <p>Nicolò</p>
-                <p id="you"><input type="button" value="Enqueue" onclick="enqueue()"/></p>
+                <p>Edoardo</p>
+                <p>Salvatore</p>
+                <p>Federico</p>
+                <p id="you"><input class="button" type="button" value="Enqueue" onclick="enqueue_spa()"/></p>
             </div>
-            <button class="accordion">SKULLCRUSH</button>
+            <button class="accordion">SAUNA</button>
+            <div class="panel">
+                <p>Giulia</p>
+                <p>Chiara</p>
+                <p>Roberta</p>
+            </div>
+            <button class="accordion">HOT POOL</button>
             <div class="panel">
                 <p>Roberto</p>
-                <p>Salvatore</p>
+                <p>Simone</p>
+                <p>Gianmarco</p>
             </div>
+            <button class="accordion">COLD POOL</button>
+            <div class="panel">
+                <p>Simone</p>
+                <p>Gianmarco</p>
+            </div>
+            <br/>
+            
+            
             <script>
             var acc = document.getElementsByClassName("accordion");
             var i;
