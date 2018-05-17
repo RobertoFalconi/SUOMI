@@ -22,14 +22,15 @@
             var height = document.getElementById("height");
             var weight = document.getElementById("weight");
             var bmi = weight.value / (height.value * height.value);
+            var heartrate = document.getElementById("heartrate");
             
-            if (age.value >= 60 && bmi >= 25) {        // OF
+            if (heartrate.value >= 100 && bmi >= 25) {        // OF
                 window.location.href = "main-of.html";
-            } else if (age.value >= 60 && bmi < 25) {  // OS
+            } else if (heartrate.value >= 100 && bmi < 25) {  // OS
                 window.location.href = "main-os.html";
-            } else if (age.value < 60  && bmi >= 25) { // YF
+            } else if (heartrate.value < 100  && bmi >= 25) { // YF
                 window.location.href = "main-yf.html";
-            } else if (age.value < 60 && bmi < 25) {   // YS
+            } else if (heartrate.value < 100 && bmi < 25) {   // YS
                 window.location.href = "main-ys.html";
             }
         }          
@@ -103,6 +104,8 @@
             <input type="text" id="height"><br><br>
             <label>Weight</label><br>
             <input type="text" id="weight"><br><br>
+            <label>Heart Rate</label><br>
+            <input type="text" id="heartrate"><br><br>
             <br>
             <input type="button" class="button" value="Send" onclick="send()"><br><br><br>
         </div>
