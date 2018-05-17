@@ -108,6 +108,39 @@ ACCORDION STYLE
 }
 
 /* -----------------------
+OVERLAY STYLE
+------------------------*/
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    visibility: visible; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 99999; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    color: white;
+    font-size: 34pt;
+    text-align: center;
+    -webkit-transition: visibility 1s, opacity 1s;
+    -moz-transition: visibility 1s, opacity 1s;
+    -o-transition: visibility 1s, opacity 1s;
+    -ms-transition: visibility 1s, opacity 1s;       
+    transition: visibility 1s, opacity 1s;
+    opacity: 1;
+}
+#overlay img {
+    height: 120px;
+    width: 13%;
+    margin-top: 50px;
+    padding-right: 25%;
+    float: right;
+}
+
+/* -----------------------
 DESKTOP: HEADER & HEADER.SMALLER
 ------------------------*/
 

@@ -52,6 +52,11 @@
         FUNCTION: DRAG & DROP
         -->
         <script>
+            function off(){
+                document.getElementById('overlay').style.opacity = 0;
+                document.getElementById('overlay').style.visibility = "hidden";
+            }
+            
             function allowDrop(ev) {
                 ev.preventDefault();
             }
@@ -143,7 +148,9 @@
 	</head>
 	
 	<body>
-		
+		<div id="overlay" onclick="off()"><br>Drag and drop to the cart!<br>
+            <img src="img/white_arrow.png">
+        </div>
 		<!--
 		SMARTPHONE SIDENAV
 		-->
