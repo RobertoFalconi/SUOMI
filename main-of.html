@@ -17,8 +17,10 @@
 		FUNCTION: CHANGE PAGES
 		-->
         <script>
-        function go_back(){
-            window.location.href = "login.html";
+        function logout(){
+            if (confirm("Are you sure?")){
+                window.location.href = "login.html";
+            }
         }  
         function go_restaurant(){
             window.location.href = "bookrestaurant-of.html";
@@ -97,7 +99,7 @@
 		SMARTPHONE AND DESKTOP MAIN COLUMN
 		-->
 		<div class="col1">
-            <br><input type="button" value="Log out" onclick="go_back()" class="button"/>
+            <br><input type="button" value="Log out" onclick="logout()" class="button"/>
         </div>
         <div class="col2">
 			<br>

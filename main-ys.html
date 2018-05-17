@@ -17,8 +17,10 @@
 		FUNCTION: CHANGE PAGES
 		-->
         <script>
-        function go_back(){
-            window.location.href = "login.html";
+        function logout(){
+            if (confirm("Are you sure?")){
+                window.location.href = "login.html";
+            }
         }  
         function go_restaurant(){
             window.location.href = "bookrestaurant-ys.html";
