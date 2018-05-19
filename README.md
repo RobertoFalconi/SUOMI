@@ -16,6 +16,6 @@ GitHub repository:
 SlideShare presentations:  
 - https://www.slideshare.net/RobertoFalconi4/suomi-initial-concept-user-evaluation  
 - https://www.slideshare.net/RobertoFalconi4/suomi-mvp-step  
-                        
+  
 Pervasive Systems 2018:  
 - http://ichatz.me/Site/PervasiveSystems2018  
