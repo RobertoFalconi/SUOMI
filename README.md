@@ -19,3 +19,7 @@ SlideShare presentations:
   
 Pervasive Systems 2018:  
 - http://ichatz.me/Site/PervasiveSystems2018  
+  
+Other links:  
+- https://github.com/FedericoGuidi  
+- https://github.com/SalvatoreLicitra  
