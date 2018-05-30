@@ -10,8 +10,9 @@ text=""
 while True:
 	rcv = port.readline()
 	if rcv == "Start to initializa the proess\n":
-		print rcv
-		text+=rvc
+		text=""
+	print rcv
+	text+=rvc
 	if rcv == "Your data are been sent\r\n":
 		print "+++++++++++++++++++++++++++++++++++++++++++++++\n"
 		output.write(text)
