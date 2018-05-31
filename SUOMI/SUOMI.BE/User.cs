@@ -8,6 +8,7 @@ namespace SUOMI.BE
 {
     public class User
     {
+        public static int STM32 { get; set; }
 
         public int Id { get; set; }
         public String Nickname { get; set; }
@@ -20,6 +21,7 @@ namespace SUOMI.BE
         public double BMI { get; set; }
         public static User UtenteCorrente { get; set; }
 
+        
 
         public User()
         {

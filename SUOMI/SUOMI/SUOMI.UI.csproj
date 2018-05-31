@@ -375,6 +375,10 @@
       <Project>{74c5f66a-80ff-4f08-9743-d7fab5042fdc}</Project>
       <Name>SUOMI.BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SUOMI.STM32\SUOMI.STM32.csproj">
+      <Project>{08a839a8-2feb-4a77-94f9-79168ce568c5}</Project>
+      <Name>SUOMI.STM32</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

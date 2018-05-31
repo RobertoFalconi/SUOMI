@@ -73,10 +73,10 @@
                     <asp:Label ID="lblHeartRate" runat="server" Text="Heart Rate"></asp:Label>
                     <br />
                     <asp:TextBox ID="txtHeartRate" runat="server"></asp:TextBox>
+                    <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
                     <br />
                     <br />
                 </h3>
-                <asp:Button ID="btnNext" runat="server" Text="Next" class="button" OnClick="btnNext_Click" />
             </form>
         </div>
     </body>

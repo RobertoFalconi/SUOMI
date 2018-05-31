@@ -94,3 +94,6 @@ C:\Users\R.Falconi\source\repos\SUOMI\SUOMI\obj\Debug\SUOMI.dll
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI\obj\Debug\SUOMI.pdb
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI\bin\SUOMI.DAL.dll
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI\bin\SUOMI.DAL.pdb
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI\bin\SUOMI.STM32.exe
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI\bin\SUOMI.STM32.pdb
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI\bin\SUOMI.STM32.exe.config
