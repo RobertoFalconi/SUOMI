@@ -50,6 +50,13 @@
             <form id="form1" enctype="multipart/form-data">
                 <h1>User Data</h1>
                 <h3>
+                    <asp:Label ID="lblHeartRate" runat="server" Text="Heart Rate"></asp:Label>
+                    <br />
+                    <asp:TextBox ID="txtHeartRate" runat="server"></asp:TextBox>
+                    <br />
+                    <asp:Button ID="Button1" runat="server" Text="Test!" OnClick="Button1_Click" CssClass="button" />
+                    <br />
+                    <br />
                     <asp:Label ID="lblGender" runat="server" Text="Gender"></asp:Label>
                     <br />
                     <asp:TextBox ID="txtGender" runat="server"></asp:TextBox>
@@ -70,10 +77,10 @@
                     <asp:TextBox ID="txtWeight" runat="server"></asp:TextBox>
                     <br />
                     <br />
-                    <asp:Label ID="lblHeartRate" runat="server" Text="Heart Rate"></asp:Label>
+                    
                     <br />
-                    <asp:TextBox ID="txtHeartRate" runat="server"></asp:TextBox>
-                    <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+                    <br />
+                    <asp:Button ID="btnNext" runat="server" Text="Next" OnClick="btnNext_Click1" CssClass="button" />
                     <br />
                     <br />
                 </h3>

@@ -14,6 +14,7 @@ namespace SerialPort_Test
         {
             String testo, text = "";
             StreamWriter logfile = new StreamWriter("C:\\Users\\R.Falconi\\source\\repos\\SUOMI\\SUOMI.STM32\\log.txt");
+            System.Diagnostics.Debug.WriteLine("PROVA");
             while (true)
             {
                 testo = mySerialPort.ReadLine();
