@@ -58,7 +58,7 @@
 
 
             <h1 style="font-family: SkranjiR;">Services</h1>
-            <h3><b>Welcome!</b><br>
+            <h3><b>Welcome <asp:Label ID="lblWelcome" runat="server" Text=""></asp:Label>!</b><br>
                 Your BMI is
                 <asp:Label ID="lblBMI" runat="server" Text=""></asp:Label>
                 <br />

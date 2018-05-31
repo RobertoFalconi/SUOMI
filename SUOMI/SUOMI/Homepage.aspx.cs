@@ -12,6 +12,7 @@ namespace SUOMI
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            lblWelcome.Text = BE.User.UtenteCorrente.Nickname;
             if (BE.User.UtenteCorrente.BMI >= 25)
             {
                 lblBMI.Text = "higher than 25 (a bit overweight).";

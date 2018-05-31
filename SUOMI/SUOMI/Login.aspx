@@ -55,9 +55,9 @@
                 <asp:TextBox ID="txtNickname" runat="server"></asp:TextBox>
                 <br />
                 <br />
-                <asp:Label ID="lblPassword" runat="server" Text="Password:"></asp:Label>
+                <asp:Label ID="lblPassword" runat="server" Text="Password:" Visible="false"></asp:Label>
                 <br />
-                <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtPassword" runat="server" Visible="false"></asp:TextBox>
                 <br />
                 <br />
                 </h3>
@@ -73,9 +73,9 @@
                 <asp:TextBox ID="txtNicknameNew" runat="server"></asp:TextBox>
                 <br />
                 <br />
-                <asp:Label ID="lblPasswordNew" runat="server" Text="New password:"></asp:Label>
+                <asp:Label ID="lblPasswordNew" runat="server" Text="New password:" Visible="false"></asp:Label>
                 <br />
-                <asp:TextBox ID="txtPasswordNew" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtPasswordNew" runat="server" Visible="false"></asp:TextBox>
                 <br />
                 <br />
                 </h3>

@@ -26,7 +26,7 @@ namespace SUOMI
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Label1.Text = "You!";
+            Label1.Text = BE.User.UtenteCorrente.Nickname;
             Button2.Visible = false;
             Button3.Visible = true;
             Button4.Visible = true;

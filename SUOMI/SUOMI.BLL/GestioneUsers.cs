@@ -21,5 +21,9 @@ namespace SUOMI.BLL
         {
             return DAL.GestioneUsers.GetUser(nickname);
         }
+        public static User GetUser(int id)
+        {
+            return DAL.GestioneUsers.GetUser(id);
+        }
     }
 }

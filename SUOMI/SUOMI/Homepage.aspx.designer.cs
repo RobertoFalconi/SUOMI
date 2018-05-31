@@ -22,6 +22,15 @@ namespace SUOMI {
         protected global::System.Web.UI.WebControls.Button btnLogoutDesktop;
         
         /// <summary>
+        /// Controllo lblWelcome.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblWelcome;
+        
+        /// <summary>
         /// Controllo lblBMI.
         /// </summary>
         /// <remarks>

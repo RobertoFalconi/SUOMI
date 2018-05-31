@@ -25,7 +25,7 @@ namespace SUOMI
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Label1.Text = "You!";
+            Label1.Text = BE.User.UtenteCorrente.Nickname;
             Button2.Visible = false;
             Button3.Visible = true;
         }
@@ -38,7 +38,7 @@ namespace SUOMI
         }
         protected void Button4_Click(object sender, EventArgs e)
         {
-            Label2.Text = "You!";
+            Label2.Text = BE.User.UtenteCorrente.Nickname;
             Button4.Visible = false;
             Button5.Visible = true;
         }
@@ -51,7 +51,7 @@ namespace SUOMI
         }
         protected void Button6_Click(object sender, EventArgs e)
         {
-            Label3.Text = "You!";
+            Label3.Text = BE.User.UtenteCorrente.Nickname;
             Button6.Visible = false;
             Button7.Visible = true;
         }
@@ -64,7 +64,7 @@ namespace SUOMI
         }
         protected void Button8_Click(object sender, EventArgs e)
         {
-            Label4.Text = "You!";
+            Label4.Text = BE.User.UtenteCorrente.Nickname;
             Button8.Visible = false;
             Button9.Visible = true;
         }

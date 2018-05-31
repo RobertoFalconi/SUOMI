@@ -90,6 +90,40 @@ namespace SUOMI.DAL
 
             return userDaRestituire;
         }
+        public static User GetUser(int id)
+        {
+            SqlConnection conn = Connetti();
+
+            string query = "SELECT * FROM Users WHERE Users.Id = '" + id + "'";
+
+            User userDaRestituire = null;
+
+            SqlDataReader reader;
+            using (conn)
+            {
+                conn.Open();
+                SqlCommand command = new SqlCommand(query);
+                command.Connection = conn;
+                reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    int id_ret = (int)reader["Id"];
+                    string nickname = reader["Nickname"]?.ToString();
+                    string password = reader["Password"]?.ToString();
+                    string gender = reader["Gender"]?.ToString();
+                    int age = (int)reader["Age"];
+                    double height = (double)reader["Height"];
+                    double weight = (double)reader["Weight"];
+                    double heart_rate = (double)reader["Heart_rate"];
+
+                    userDaRestituire = new User(id_ret, nickname, password, gender, age, height, weight, heart_rate);
+                }
+                reader.Close();
+                conn.Close();
+            }
+
+            return userDaRestituire;
+        }
     }
 
     
