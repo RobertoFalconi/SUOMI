@@ -1,0 +1,14 @@
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\bin\Debug\SUOMI.UIConsole.exe.config
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\bin\Debug\SUOMI.UIConsole.exe
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\bin\Debug\SUOMI.UIConsole.pdb
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\bin\Debug\SUOMI.BE.dll
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\bin\Debug\SUOMI.BLL.dll
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\bin\Debug\SUOMI.BE.pdb
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\bin\Debug\SUOMI.BLL.pdb
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\obj\Debug\SUOMI.UIConsole.csprojAssemblyReference.cache
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\obj\Debug\SUOMI.UIConsole.csproj.CoreCompileInputs.cache
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\obj\Debug\SUOMI.UIConsole.csproj.CopyComplete
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\obj\Debug\SUOMI.UIConsole.exe
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\obj\Debug\SUOMI.UIConsole.pdb
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\bin\Debug\SUOMI.DAL.dll
+C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.UIConsole\bin\Debug\SUOMI.DAL.pdb
