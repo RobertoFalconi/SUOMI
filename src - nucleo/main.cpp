@@ -17,7 +17,7 @@ void pressed(){
  
 void sendDataToProcessing(char symbol, int data){
     if(symbol == 'B') {
-        if(j<len){
+        if(count<len){
             result = data<50?50:(data>120?120:data);
             //pc.printf("\rLoading");
             count++;
