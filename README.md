@@ -14,7 +14,7 @@ There is also a python script which is just a way to test the connection and to 
 # How to compile the code
 To develop the nucleo's code I used os.mbed, which is an online compiler that generate the binary file, I suggest you to use the same environment and to import on your compiler the code which you can find on my repository: https://os.mbed.com/users/salvolicitra/code/SUOMI/
 
-# USEFUL LINKS
+# Useful links
 LinkedIn profiles:  
 - https://www.linkedin.com/in/roberto-falconi  
 - https://www.linkedin.com/in/federico-guidi  
