@@ -18,12 +18,7 @@ SUOMI lets a spa owner to turn a spa into a smart one for better results, thanks
 So, SUOMI turns an old spa into a smart one. How? SUOMI will be a “smart guide” that will help a spa customer to maximize its benefit and to avoid dangerous practices.
 
 # Existing solutions and competitors
-Competitors	      Reliability	   Competence	   Availability in spa	   Non-invasiveness
-Spa staffers	      ✘	            ✘	               ✓	                     ✘
-Medical doctors	   ✓	            ✓	               ✘	                     ✘
-Wellness advisors	   ✘	            ✓	               ✓	                     ✘
-Practice	            ✓	            ✘	               ✓	                     ✓
-SUOMI	               ✓	            ✓	               ✓	                     ✓
+In the docs SUOMI has been compared with some competitors and existing solutions to reduce stress (such as spa staffers, medical doctors, wellness advisors, practice etc.) based on reliability, competence, availability in spa and non-invasiveness parameters.
 
 # Development process
 To develop a sophisticated software like the SUOMI one, we used many services:
@@ -47,7 +42,14 @@ A mockup is a prototype if it provides at least part of the functionality of a s
 Using myBalsamiq, we have made mockups. In the docs it is shown how to login, insert your data, book for a service and enjoy the spa.
 
 # The software architecture
-SUOMI is designed to implement a three layer software architecture: User Interface (Web Application), Business Logic (intermediate layer) and Data Access (the layer connected to the DBMS). Then, there is another layer, called the Business Entity, connected to all the other layers.
+SUOMI is coded in .NET Frameworks using C# with Visual Studio 2017 and it is designed to implement a three layer software architecture: User Interface (ASP.NET Web Application), Business Logic (intermediate layer) and Data Access (the layer connected to the DBMS). Then, there is another layer, called the Business Entity, connected to all the other layers and where the objects' classes are implemented.
+
+To implement the DBMS we used Microsoft SQL Server Management Studio (aka SSMS) which is linked to the software using ADO.NET.
+
+# How to run SUOMI
+To run the project we suggest you to clone the repository and open the .sln project inside the SUOMI directory using Visual Studio 2017.
+Then, run the .bacpac DB using SSMS and remember to change the path inside the code.
+Now ensure that SUOMI.UI is setted as starting project in the solution and run it with F5, the project will run with the Login page. Do the Login or the registration of a new account and procede compiling the form. Click on the button in the HTML form to turn on Nucleo and procede with the following instructions.
 
 # Nucleo's code
 The core of the application is the PulseSensor SEN-11574, the sensor maded by PulseSensor.com which translates a light signal to an hearte rate value with your finger, the sensor is connected to the STM32 NUCLEO-F401RE board. 
@@ -56,8 +58,8 @@ When we accept the result, it is captured by a function that places it on the he
 
 There is also a python script which is just a way to test the connection and to try the nucleo's code, the script print some information during the computation, store the result over a log file and also return the value on screen
 
-# How to compile the code
-To develop the nucleo's code we used os.mbed, which is an online compiler that generate the binary file, we suggest you to use the same environment and to import on your compiler the code which you can find on this repository: https://os.mbed.com/users/salvolicitra/code/SUOMI/
+# How to compile the Nucleo's code
+To develop the nucleo's code we used os.mbed, which is an online compiler that generate the binary file, we suggest you to use the same environment and to import on your compiler the code which you can find on the Mbed repository.
 
 # Useful links
 LinkedIn profiles:  
