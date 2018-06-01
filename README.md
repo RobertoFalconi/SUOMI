@@ -22,6 +22,9 @@ LinkedIn profiles:
    
 GitHub repository:  
 - https://github.com/RobertoFalconi/SUOMI  
+
+Mbed repository:
+- https://os.mbed.com/users/salvolicitra/code/SUOMI/
   
 SlideShare presentations:  
 - https://www.slideshare.net/RobertoFalconi4/suomi-initial-concept-user-evaluation  
