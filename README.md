@@ -21,16 +21,7 @@ So, SUOMI turns an old spa into a smart one. How? SUOMI will be a “smart guide
 In the docs SUOMI has been compared with some competitors and existing solutions to reduce stress (such as spa staffers, medical doctors, wellness advisors, practice etc.) based on reliability, competence, availability in spa and non-invasiveness parameters.
 
 # Development process
-To develop a sophisticated software like the SUOMI one, we used many services:
-•	Skype meetings;
-•	Dropbox file organization;
-•	Google Form questionnaires;
-•	Visual Studio 2017 coding;
-•	GitHub version control;
-•	Microsoft Office tesina and presentation;
-•	myBalsamiq Mockups;
-•	Draw.io diagrams;
-•	LinkedIn, SlideShare and YouTube sharing.
+To develop a sophisticated software like the SUOMI one, we used many services: Skype meetings, Dropbox file organization, Google Form questionnaires, Visual Studio 2017 coding, GitHub version control, Microsoft Office docs, myBalsamiq Mockups, Draw.io diagrams, LinkedIn, SlideShare and YouTube sharing.
 
 # Questionnaires and interviews to users
 To get most possible users’ propensity and to listen to users’ desires, we made Google Form questionnaires which results will be analyzed in the docs.
