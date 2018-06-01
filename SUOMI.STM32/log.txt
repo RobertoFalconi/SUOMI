@@ -1,0 +1,7 @@
+?"??SC?
++++++++++++++++++++++++++++++++++++++++++++++++
+Start to inizialize the process
+Your average BPM are: 85
+[Black]	restart the measurement
+[Blue]	confirm the data
+Your data are been sent
