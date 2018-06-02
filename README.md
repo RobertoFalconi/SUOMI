@@ -68,8 +68,7 @@ SUOMI is coded in .NET Frameworks using C# with Visual Studio 2017 and it is des
 To implement the DBMS we used Microsoft SQL Server Management Studio (aka SSMS) which is linked to the software using ADO.NET.  
 
 ![alt text](https://hackster.imgix.net/uploads/attachments/493791/user_data_VPNtbw6rWh.png?auto=compress%2Cformat&w=680&h=510&fit=max)  
-![alt text](https://hackster.imgix.net/uploads/attachments/493789/relax_area_booking_bEeThMfF1z.png?auto=compress%2Cformat&w=680&h=510&fit=max)  
-![alt text](https://hackster.imgix.net/uploads/attachments/493790/relax_area_store_qtcuK3YV6x.png?auto=compress%2Cformat&w=680&h=510&fit=max)  
+More images at: https://www.hackster.io/Falkons/suomi-smart-spa-with-stm32-nucleo-board
 
 # How to run SUOMI
 To run the project we suggest you to clone the repository and open the .sln project inside the SUOMI directory using Visual Studio 2017.
