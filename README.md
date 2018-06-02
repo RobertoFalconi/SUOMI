@@ -18,19 +18,19 @@ SUOMI lets a spa owner to turn a spa into a smart one for better results, thanks
 So, SUOMI turns an old spa into a smart one. How? SUOMI will be a “smart guide” that will help a spa customer to maximize its benefit and to avoid dangerous practices.
 
 # Existing solutions and competitors
-In the docs SUOMI has been compared with some competitors and existing solutions to reduce stress (such as spa staffers, medical doctors, wellness advisors, practice etc.) based on reliability, competence, availability in spa and non-invasiveness parameters.
+In the [initial concept](https://www.slideshare.net/RobertoFalconi4/suomi-initial-concept-user-evaluation) SUOMI has been compared with some competitors and existing solutions to reduce stress (such as spa staffers, medical doctors, wellness advisors, practice etc.) based on reliability, competence, availability in spa and non-invasiveness parameters.
 
 # Development process
 To develop a sophisticated software like the SUOMI one, we used many services: Skype meetings, Dropbox file organization, Google Form questionnaires, Visual Studio 2017 coding, GitHub version control, Microsoft Office docs, myBalsamiq Mockups, Draw.io diagrams, LinkedIn, SlideShare and YouTube sharing.
 
 # Questionnaires and interviews to users
-To get most possible users’ propensity and to listen to users’ desires, we made Google Form questionnaires which results will be analyzed in the docs.
+To get most possible users’ propensity and to listen to users’ desires, we made Google Form questionnaires which results will be analyzed in the [user evaluation](https://www.slideshare.net/RobertoFalconi4/suomi-initial-concept-user-evaluation).
 
 # Mockups
 In manufacturing and design, a mockup, or mock-up, is a scale or full-size model of a design or device, used for teaching, demonstration, design evaluation, promotion and other purposes
 A mockup is a prototype if it provides at least part of the functionality of a system and enables testing of a design.
 
-Using myBalsamiq, we have made mockups. In the docs it is shown how to login, insert your data, book for a service and enjoy the spa.
+Using myBalsamiq, we have made mockups. In the [MVP step](https://www.slideshare.net/RobertoFalconi4/suomi-mvp-step) it is shown how to login, insert your data, book for a service and enjoy the spa.
 
 # The software architecture
 SUOMI is coded in .NET Frameworks using C# with Visual Studio 2017 and it is designed to implement a three layer software architecture: User Interface (ASP.NET Web Application), Business Logic (intermediate layer) and Data Access (the layer connected to the DBMS). Then, there is another layer, called the Business Entity, connected to all the other layers and where the objects' classes are implemented.
