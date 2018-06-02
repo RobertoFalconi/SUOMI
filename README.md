@@ -2,7 +2,7 @@
 Smart guide for your spa experience.
 
 SUOMI is a software that guide users of a wellness center in the best possible journey using IoT.  
-Developed for Pervasive Systems course by Professor Ioannis Chatzigiannakis of MSc in Engineering in Computer Science at Sapienza, University of Rome.  
+Developed by Federico Guidi, Roberto Falconi and Salvatore Licitra for Pervasive Systems course by Professor Ioannis Chatzigiannakis of MSc in Engineering in Computer Science at Sapienza, University of Rome.  
 
 # Abstract
 Seven people die from stress every two seconds. What do anxiety, panic attacks, depression, coronary heart disease, high blood pressure, fears, phobias, irritable bowel, fibromyalgia, ulcers, self-destructive habits like overeating, and others all have in common?
