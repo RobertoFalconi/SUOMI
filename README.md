@@ -5,6 +5,9 @@ SUOMI is a software that guide users of a wellness center in the best possible j
 Developed by Federico Guidi, Roberto Falconi and Salvatore Licitra for Pervasive Systems course by Professor Ioannis Chatzigiannakis of MSc in Engineering in Computer Science at Sapienza, University of Rome.  
 
 # Useful links
+Hackster guide:
+- https://www.hackster.io/Falkons/suomi-smart-spa-with-stm32-nucleo-board
+
 LinkedIn profiles:  
 - https://www.linkedin.com/in/roberto-falconi  
 - https://www.linkedin.com/in/federico-guidi  
