@@ -58,6 +58,8 @@ In manufacturing and design, a mockup, or mock-up, is a scale or full-size model
 A mockup is a prototype if it provides at least part of the functionality of a system and enables testing of a design.
 
 Using myBalsamiq, we have made mockups. In the [MVP step](https://www.slideshare.net/RobertoFalconi4/suomi-mvp-step) it is shown how to login, insert your data, book for a service and enjoy the spa.
+![alt text](https://hackster.imgix.net/uploads/attachments/493788/mockups_NlFGuGzOe4.png?auto=compress%2Cformat&w=680&h=510&fit=max)
+
 
 # The software architecture
 SUOMI is coded in .NET Frameworks using C# with Visual Studio 2017 and it is designed to implement a three layer software architecture: User Interface (ASP.NET Web Application), Business Logic (intermediate layer) and Data Access (the layer connected to the DBMS). Then, there is another layer, called the Business Entity, connected to all the other layers and where the objects' classes are implemented.
