@@ -50,7 +50,7 @@ When we accept the result, it is captured by a function that places it on the he
 There is also a python script which is just a way to test the connection and to try the nucleo's code, the script print some information during the computation, store the result over a log file and also return the value on screen
 
 # How to compile the Nucleo's code
-To develop the nucleo's code we used os.mbed, which is an online compiler that generate the binary file, we suggest you to use the same environment and to import on your compiler the code which you can find on the Mbed repository.
+To develop the nucleo's code we used os.mbed, which is an online compiler that generate the binary file, we suggest you to use the same environment and to import on your compiler the code which you can find on the [Mbed repository](https://os.mbed.com/users/salvolicitra/code/SUOMI/).
 
 # Useful links
 LinkedIn profiles:  
