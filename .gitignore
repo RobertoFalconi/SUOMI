@@ -7,3 +7,6 @@
 /.vs/SUOMI/v15/Server/sqlite3/storage.ide
 /.vs/SUOMI/v15/Server/sqlite3/db.lock
 /.vs/SUOMI/v15/.suo
+/.vs/
+/SUOMI/SUOMI.BE/bin
+/SUOMI/SUOMI.BE/obj
