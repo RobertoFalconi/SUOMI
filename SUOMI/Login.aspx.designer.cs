@@ -31,15 +31,6 @@ namespace SUOMI {
         protected global::System.Web.UI.WebControls.TextBox txtNickname;
         
         /// <summary>
-        /// Controllo btnLogin.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
-        
-        /// <summary>
         /// Controllo lblPassword.
         /// </summary>
         /// <remarks>
@@ -56,6 +47,15 @@ namespace SUOMI {
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPassword;
+        
+        /// <summary>
+        /// Controllo btnLogin.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLogin;
         
         /// <summary>
         /// Controllo lblNicknameNew.
@@ -76,15 +76,6 @@ namespace SUOMI {
         protected global::System.Web.UI.WebControls.TextBox txtNicknameNew;
         
         /// <summary>
-        /// Controllo btnLoginNew.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLoginNew;
-        
-        /// <summary>
         /// Controllo lblPasswordNew.
         /// </summary>
         /// <remarks>
@@ -101,5 +92,14 @@ namespace SUOMI {
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPasswordNew;
+        
+        /// <summary>
+        /// Controllo btnLoginNew.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLoginNew;
     }
 }

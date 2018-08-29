@@ -33,6 +33,14 @@
                 });
             });
         </script>
+        <script>
+            function registration() {
+                confirm("Are you sure to register in this service?");
+            }
+            function deletion() {
+                confirm("Are you sure to delete from this service?");
+            }
+        </script>
         <!--
 		FUNCTION: ACCORDION
 		-->
@@ -67,7 +75,7 @@
             <br />
             <br />
 
-            <asp:Label runat="server" Text="Hot Pool" CssClass="accordion" />
+            <asp:Label runat="server" Text="Hot Pool (28 °C, max users: 5)" CssClass="accordion" />
             <div class="panel">
                 <h5>
                     <br />
@@ -76,8 +84,8 @@
                     <p>Lorenzo</p>
                     <p>Giuseppe</p>
                     <asp:Label ID="Label1" runat="server" Text=""></asp:Label><br />
-                    <asp:Button ID="Button2" runat="server" Text="Register!" OnClick="Button2_Click" CssClass="button" Visible="true" />
-                    <asp:Button ID="Button3" runat="server" Text="Delete registration!" OnClick="Button3_Click" CssClass="button" Visible="false" />
+                    <asp:Button ID="Button2" runat="server" Text="Register!" OnClick="Button2_Click" OnClientClick="registration()" CssClass="button" Visible="true" />
+                    <asp:Button ID="Button3" runat="server" Text="Delete registration!" OnClick="Button3_Click" OnClientClick="deletion()" CssClass="button" Visible="false" />
                     <br />
                     <br />
                     <br />
@@ -86,7 +94,7 @@
             </div>
             <br />
             <br />
-            <asp:Label runat="server" Text="Cold Pool" CssClass="accordion" />
+            <asp:Label runat="server" Text="Cold Pool (18 °C, max users: 5)" CssClass="accordion" />
             <div class="panel">
                 <h5>
                     <br />
@@ -95,8 +103,8 @@
                     <p>Simone</p>
                     <p>Gianmarco</p>
                     <asp:Label ID="Label2" runat="server" Text=""></asp:Label><br />
-                    <asp:Button ID="Button4" runat="server" Text="Register!" OnClick="Button4_Click" CssClass="button" Visible="true" />
-                    <asp:Button ID="Button5" runat="server" Text="Delete registration!" OnClick="Button5_Click" CssClass="button" Visible="false" />
+                    <asp:Button ID="Button4" runat="server" Text="Register!" OnClick="Button4_Click" OnClientClick="registration()" CssClass="button" Visible="true" />
+                    <asp:Button ID="Button5" runat="server" Text="Delete registration!" OnClick="Button5_Click" OnClientClick="deletion()" CssClass="button" Visible="false" />
                     <br />
                     <br />
                     <br />
@@ -105,7 +113,7 @@
             </div>
             <br />
             <br />
-            <asp:Label runat="server" Text="Finnish Sauna" CssClass="accordion" />
+            <asp:Label runat="server" Text="Finnish Sauna (100 °C, humidity: 20%, max users: 7)" CssClass="accordion" />
             <div class="panel">
                 <h5>
                     <br />
@@ -114,8 +122,8 @@
                     <p>Bernardo</p>
                     <p>Francesco</p>
                     <asp:Label ID="Label3" runat="server" Text=""></asp:Label><br />
-                    <asp:Button ID="Button6" runat="server" Text="Register!" OnClick="Button6_Click" CssClass="button" Visible="true" />
-                    <asp:Button ID="Button7" runat="server" Text="Delete registration!" OnClick="Button7_Click" CssClass="button" Visible="false" />
+                    <asp:Button ID="Button6" runat="server" Text="Register!" OnClick="Button6_Click" OnClientClick="registration()" CssClass="button" Visible="true" />
+                    <asp:Button ID="Button7" runat="server" Text="Delete registration!" OnClick="Button7_Click" OnClientClick="deletion()" CssClass="button" Visible="false" />
                     <br />
                     <br />
                     <br />
@@ -124,7 +132,7 @@
             </div>
             <br />
             <br />
-            <asp:Label runat="server" Text="Turkish Bath" CssClass="accordion" />
+            <asp:Label runat="server" Text="Turkish Bath (100°, humidity: 100%, max users: 7)" CssClass="accordion" />
             <div class="panel">
                 <h5>
                     <br />
@@ -135,8 +143,8 @@
                 <p>Roberta</p>
                 <p>Ion</p>
                 <asp:Label ID="Label4" runat="server" Text=""></asp:Label><br />
-                <asp:Button ID="Button8" runat="server" Text="Register!" OnClick="Button8_Click" CssClass="button" Visible="true" />
-                <asp:Button ID="Button9" runat="server" Text="Delete registration!" OnClick="Button9_Click" CssClass="button" Visible="false" />
+                <asp:Button ID="Button8" runat="server" Text="Register!" OnClick="Button8_Click" OnClientClick="registration()" CssClass="button" Visible="true" />
+                <asp:Button ID="Button9" runat="server" Text="Delete registration!" OnClick="Button9_Click" OnClientClick="deletion()" CssClass="button" Visible="false" />
                 <br />
                 <br />
                 <br />

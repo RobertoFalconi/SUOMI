@@ -33,6 +33,11 @@
                 });
             });
         </script>
+        <script>
+            function registration() {
+                confirm("Are you sure to register in this service?");
+            }
+        </script>
     </head>
     <body>
         <!--
@@ -50,12 +55,6 @@
             <form id="form1" enctype="multipart/form-data">
                 <h1>User Data</h1>
                 <h3>
-                    <asp:Label ID="lblHeartRate" runat="server" Text="Heart Rate"></asp:Label>
-                    <br />
-                    <asp:TextBox ID="txtHeartRate" runat="server"></asp:TextBox>
-                    <br />
-                    <asp:Button ID="Button1" runat="server" Text="Test!" OnClick="Button1_Click" CssClass="button" />
-                    <br />
                     <br />
                     <asp:Label ID="lblGender" runat="server" Text="Gender"></asp:Label>
                     <br />
@@ -77,10 +76,16 @@
                     <asp:TextBox ID="txtWeight" runat="server"></asp:TextBox>
                     <br />
                     <br />
-                    
+                    <asp:Label ID="lblHeartRate" runat="server" Text="Heart Rate"></asp:Label>
+                    <br />
+                    <asp:TextBox ID="txtHeartRate" runat="server"></asp:TextBox>
                     <br />
                     <br />
-                    <asp:Button ID="btnNext" runat="server" Text="Next" OnClick="btnNext_Click1" CssClass="button" />
+                    <asp:Button ID="btnNext" runat="server" Text="Next" OnClick="btnNext_Click1" OnClientClick="registration()" CssClass="button" />
+                    <asp:Button ID="Button1" runat="server" Text="Test!" OnClick="Button1_Click" CssClass="button" Visible="false" />
+                    <br />
+                    <br />
+                    <br />
                     <br />
                     <br />
                 </h3>

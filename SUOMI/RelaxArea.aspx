@@ -33,6 +33,14 @@
                 });
             });
         </script>
+        <script>
+            function registration() {
+                confirm("Are you sure to register in this service?");
+            }
+            function deletion() {
+                confirm("Are you sure to delete from this service?");
+            }
+        </script>
         <!--
 		FUNCTION: ACCORDION
 		-->
@@ -70,8 +78,8 @@
                 <br />
                 <br />
                 <asp:Label ID="Label1" runat="server" Text=""></asp:Label><br />
-                <asp:Button ID="Button2" runat="server" Text="Register!" OnClick="Button2_Click" CssClass="button" Visible="true" />
-                <asp:Button ID="Button3" runat="server" Text="Delete registration!" OnClick="Button3_Click" CssClass="button" Visible="false" />
+                <asp:Button ID="Button2" runat="server" Text="Register!" OnClick="Button2_Click" OnClientClick="registration()" CssClass="button" Visible="true" />
+                <asp:Button ID="Button3" runat="server" Text="Delete registration!" OnClick="Button3_Click" OnClientClick="deletion()" CssClass="button" Visible="false" />
                 <asp:Button ID="Button4" runat="server" Text="Open the store!" OnClick="Button4_Click" CssClass="button" Visible="false" />
                 <br />
                 --

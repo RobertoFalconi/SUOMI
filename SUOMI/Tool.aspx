@@ -146,7 +146,7 @@
         <div id="overlay" onclick="off()">
             <br>
             Drag and drop to the cart!<br>
-            <img src="img/white_arrow.png">
+            <img src="img/white_arrow.png"  style="width:40%">
         </div>
         <!--
 		SMARTPHONE SIDENAV
@@ -357,10 +357,7 @@
 
             <a href="#openModal" onclick="makeID();">
             <asp:Image ID="Image1" src="img/paypal.png" onclick="makeid()" runat="server" height="27px" width="95px" style="background-color: transparent; border-color: transparent; font-size: 30px;" />
-            <!--
-            TODO: IF BUDGET IS PASSED, STOP BUYING
-            -->
-
+            
             <div id="openModal" class="modalDialog">
                 <div>
                     <a href="#close" title="Close" class="close">X</a>
