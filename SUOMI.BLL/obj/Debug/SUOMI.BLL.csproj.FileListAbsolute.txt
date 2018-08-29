@@ -9,3 +9,14 @@ C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.BLL\obj\Debug\SUOMI.BLL.csproj.CoreC
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.BLL\obj\Debug\SUOMI.BLL.csproj.CopyComplete
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.BLL\obj\Debug\SUOMI.BLL.dll
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.BLL\obj\Debug\SUOMI.BLL.pdb
+C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BLL\bin\Debug\SUOMI.BLL.dll
+C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BLL\bin\Debug\SUOMI.BLL.pdb
+C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BLL\bin\Debug\SUOMI.BE.dll
+C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BLL\bin\Debug\SUOMI.DAL.dll
+C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BLL\bin\Debug\SUOMI.BE.pdb
+C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BLL\bin\Debug\SUOMI.DAL.pdb
+C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BLL\obj\Debug\SUOMI.BLL.csprojAssemblyReference.cache
+C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BLL\obj\Debug\SUOMI.BLL.csproj.CoreCompileInputs.cache
+C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BLL\obj\Debug\SUOMI.BLL.csproj.CopyComplete
+C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BLL\obj\Debug\SUOMI.BLL.dll
+C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BLL\obj\Debug\SUOMI.BLL.pdb
