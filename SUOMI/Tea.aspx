@@ -149,7 +149,7 @@
 	
 	<body>
 		<div id="overlay" onclick="off()"><br>Drag and drop to the cart!<br>
-            <img src="img/white_arrow.png">
+            <img src="img/white_arrow.png"  style="width:40%">
         </div>
 		<!--
 		SMARTPHONE SIDENAV

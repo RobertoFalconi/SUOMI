@@ -7,12 +7,3 @@ C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.DAL\obj\Debug\SUOMI.DAL.csproj.CoreC
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.DAL\obj\Debug\SUOMI.DAL.csproj.CopyComplete
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.DAL\obj\Debug\SUOMI.DAL.dll
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.DAL\obj\Debug\SUOMI.DAL.pdb
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.DAL\bin\Debug\SUOMI.DAL.dll
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.DAL\bin\Debug\SUOMI.DAL.pdb
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.DAL\bin\Debug\SUOMI.BE.dll
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.DAL\bin\Debug\SUOMI.BE.pdb
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.DAL\obj\Debug\SUOMI.DAL.csprojAssemblyReference.cache
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.DAL\obj\Debug\SUOMI.DAL.csproj.CoreCompileInputs.cache
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.DAL\obj\Debug\SUOMI.DAL.csproj.CopyComplete
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.DAL\obj\Debug\SUOMI.DAL.dll
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.DAL\obj\Debug\SUOMI.DAL.pdb

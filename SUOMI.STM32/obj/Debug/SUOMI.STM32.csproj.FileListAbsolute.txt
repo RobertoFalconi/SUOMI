@@ -8,13 +8,3 @@ C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.STM32\bin\Debug\SUOMI.BE.pdb
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.STM32\obj\Debug\SUOMI.STM32.csproj.CopyComplete
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.STM32\obj\Debug\SUOMI.STM32.exe
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.STM32\obj\Debug\SUOMI.STM32.pdb
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.STM32\bin\Debug\SUOMI.STM32.exe.config
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.STM32\bin\Debug\SUOMI.STM32.exe
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.STM32\bin\Debug\SUOMI.STM32.pdb
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.STM32\bin\Debug\SUOMI.BE.dll
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.STM32\bin\Debug\SUOMI.BE.pdb
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.STM32\obj\Debug\SUOMI.STM32.csprojAssemblyReference.cache
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.STM32\obj\Debug\SUOMI.STM32.csproj.CoreCompileInputs.cache
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.STM32\obj\Debug\SUOMI.STM32.csproj.CopyComplete
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.STM32\obj\Debug\SUOMI.STM32.exe
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.STM32\obj\Debug\SUOMI.STM32.pdb

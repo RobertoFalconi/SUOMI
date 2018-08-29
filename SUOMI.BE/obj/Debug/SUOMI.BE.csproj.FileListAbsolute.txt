@@ -4,9 +4,3 @@ C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.BE\obj\Debug\SUOMI.BE.csprojAssembly
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.BE\obj\Debug\SUOMI.BE.csproj.CoreCompileInputs.cache
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.BE\obj\Debug\SUOMI.BE.dll
 C:\Users\R.Falconi\source\repos\SUOMI\SUOMI.BE\obj\Debug\SUOMI.BE.pdb
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BE\bin\Debug\SUOMI.BE.dll
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BE\bin\Debug\SUOMI.BE.pdb
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BE\obj\Debug\SUOMI.BE.csprojAssemblyReference.cache
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BE\obj\Debug\SUOMI.BE.csproj.CoreCompileInputs.cache
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BE\obj\Debug\SUOMI.BE.dll
-C:\Users\R.Falconi\source\repos\temp2\SUOMI\SUOMI.BE\obj\Debug\SUOMI.BE.pdb

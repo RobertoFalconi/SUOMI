@@ -54,11 +54,13 @@
                 <br />
                 <asp:TextBox ID="txtNickname" runat="server"></asp:TextBox>
                 <br />
-                <br /><asp:Button ID="btnLogin" runat="server" Text="Login" Class="button" OnClick="btnLogin_Click" />
-                <asp:Label ID="lblPassword" runat="server" Text="Password:" Visible="false"></asp:Label>
                 <br />
-                <asp:TextBox ID="txtPassword" runat="server" Visible="false"></asp:TextBox>
+                <asp:Label ID="lblPassword" runat="server" Text="Password:" ></asp:Label>
                 <br />
+                <asp:TextBox type="password" ID="txtPassword" runat="server"></asp:TextBox>
+                <br />
+                <br />
+                <asp:Button ID="btnLogin" runat="server" Text="Login" Class="button" OnClick="btnLogin_Click" />
                 <br />
                 </h3>
                 
@@ -72,11 +74,13 @@
                 <br />
                 <asp:TextBox ID="txtNicknameNew" runat="server"></asp:TextBox>
                 <br />
-                <br /><asp:Button ID="btnLoginNew" runat="server" Text="Register" Class="button" OnClick="btnLoginNew_Click" />
-                <asp:Label ID="lblPasswordNew" runat="server" Text="New password:" Visible="false"></asp:Label>
                 <br />
-                <asp:TextBox ID="txtPasswordNew" runat="server" Visible="false"></asp:TextBox>
+                <asp:Label ID="lblPasswordNew" runat="server" Text="New password:"></asp:Label>
                 <br />
+                <asp:TextBox type="password" ID="txtPasswordNew" runat="server"></asp:TextBox>
+                <br />
+                <br />
+                <asp:Button ID="btnLoginNew" runat="server" Text="Register" Class="button" OnClick="btnLoginNew_Click" />
                 <br />
                 </h3>
                 
