@@ -8,5 +8,16 @@
 /.vs/SUOMI/v15/Server/sqlite3/db.lock
 /.vs/SUOMI/v15/.suo
 /.vs/
+/SUOMI/.vs/
 /SUOMI/SUOMI.BE/bin
 /SUOMI/SUOMI.BE/obj
+/SUOMI/bin
+/SUOMI/obj
+/SUOMI/SUOMI.BLL/bin
+/SUOMI/SUOMI.BLL/obj
+/SUOMI/SUOMI.DAL/bin
+/SUOMI/SUOMI.DAL/obj
+/SUOMI/SUOMI.STM32/bin
+/SUOMI/SUOMI.STM32/obj
+/SUOMI/SUOMI.UIConsole/bin
+/SUOMI/SUOMI.UIConsole/obj
