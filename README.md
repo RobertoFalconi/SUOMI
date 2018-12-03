@@ -2,34 +2,27 @@
 Smart guide for your spa experience.
 
 SUOMI is a software that guide users of a wellness center in the best possible journey using IoT.  
-Developed by Federico Guidi, Roberto Falconi and Salvatore Licitra for Pervasive Systems course by Professor Ioannis Chatzigiannakis of MSc in Engineering in Computer Science at Sapienza, University of Rome.  
+Developed by Federico Guidi and Roberto Falconi for Pervasive Systems course by Professor Ioannis Chatzigiannakis of MSc in Engineering in Computer Science at Sapienza, University of Rome.  
 
 # Useful links
 Hackster guide:
-- https://www.hackster.io/Falkons/suomi-smart-spa-with-stm32-nucleo-board
+- https://www.hackster.io/Falkons/suomi-smart-spa-with-stm32-nucleo-board  
 
 LinkedIn profiles:  
 - https://www.linkedin.com/in/roberto-falconi  
 - https://www.linkedin.com/in/federico-guidi  
-- https://www.linkedin.com/in/salvatorelicitra  
    
 GitHub repository:  
 - https://github.com/RobertoFalconi/SUOMI  
-
-Mbed repository:
-- https://os.mbed.com/users/salvolicitra/code/SUOMI/
   
 SlideShare presentations:  
 - https://www.slideshare.net/RobertoFalconi4/suomi-initial-concept-user-evaluation  
-- https://www.slideshare.net/RobertoFalconi4/suomi-mvp-step
-- https://www.slideshare.net/RobertoFalconi4/suomi-final-product
+- https://www.slideshare.net/RobertoFalconi4/suomi-mvp-step  
+- https://www.slideshare.net/RobertoFalconi4/suomi-final-product  
   
-Pervasive Systems 2018:  
-- http://ichatz.me/Site/PervasiveSystems2018  
-  
-Other links:  
+For other awesome projects:  
 - https://github.com/FedericoGuidi  
-- https://github.com/SalvatoreLicitra  
+- https://github.com/RobertoFalconi  
 
 # Abstract
 Seven people die from stress every two seconds. What do anxiety, panic attacks, depression, coronary heart disease, high blood pressure, fears, phobias, irritable bowel, fibromyalgia, ulcers, self-destructive habits like overeating, and others all have in common?
