@@ -2,7 +2,7 @@
 Smart guide for your spa experience.
 
 SUOMI is a software that guide users of a wellness center in the best possible journey using IoT.  
-Developed by Federico Guidi and Roberto Falconi for Pervasive Systems course by Professor Ioannis Chatzigiannakis of MSc in Engineering in Computer Science at Sapienza, University of Rome.  
+Developed by Federico Guidi, Roberto Falconi and Chiara Navarra for Pervasive Systems course by Professor Ioannis Chatzigiannakis of MSc in Engineering in Computer Science at Sapienza, University of Rome.  
 
 # Useful links
 Hackster guide:
