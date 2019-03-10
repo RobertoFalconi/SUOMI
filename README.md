@@ -18,9 +18,8 @@ GitHub repository:
 - https://github.com/RobertoFalconi/SUOMI  
   
 SlideShare presentations:  
-- https://www.slideshare.net/RobertoFalconi4/suomi-initial-concept-user-evaluation  
-- https://www.slideshare.net/RobertoFalconi4/suomi-mvp-step  
-- https://www.slideshare.net/RobertoFalconi4/suomi-final-product  
+- https://www.slideshare.net/RobertoFalconi4/suomi-ucd-approach-to-build-an-iot-smart-guide-for-spa  
+- https://www.slideshare.net/RobertoFalconi4/suomi-web-software-that-guide-users-of-a-spa-in-the-best-possible-journey-using-iot  
   
 For other awesome projects:  
 - https://github.com/FedericoGuidi  
