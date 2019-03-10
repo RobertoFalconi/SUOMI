@@ -80,6 +80,6 @@ There is also a python script which is just a way to test the connection and to 
 
 # Mobile App
 
-Leater improvements of SUOMI lead us to develop a mobile application for smartphone with Android or iOS, using Xamarin, Visual Studio .NET environments. Look the mobile version at the following link.  
+Leater improvements of SUOMI lead us to develop a mobile application for smartphone with Android or iOS, using Xamarin, Visual Studio and others .NET environments. Look the mobile version at the following link.  
   
 - Mobile version: https://www.slideshare.net/RobertoFalconi4/suomi-web-software-that-guide-users-of-a-spa-in-the-best-possible-journey-using-iot/30?src=clipshare  
