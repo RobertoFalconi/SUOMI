@@ -77,3 +77,9 @@ When we accept the result, it is captured by a function that places it on the he
 There is also a python script which is just a way to test the connection and to try the nucleo's code, the script print some information during the computation, store the result over a log file and also return the value on screen.  
   
 ![alt text](https://hackster.imgix.net/uploads/attachments/493792/circuit_m6MVKTzag4.png?auto=compress%2Cformat&w=680&h=510&fit=max)
+
+# Mobile App
+
+Leater improvements of SUOMI lead us to develop a mobile application for smartphone with Android or iOS, using Xamarin, Visual Studio .NET environments. Look the mobile version at the following link.  
+  
+- Mobile version: https://www.slideshare.net/RobertoFalconi4/suomi-web-software-that-guide-users-of-a-spa-in-the-best-possible-journey-using-iot/30?src=clipshare  
